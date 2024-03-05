@@ -3,10 +3,13 @@ body, html{
   padding: 0;
 }
 
+html{
+scroll-behavior: smooth;
+}
+
 body{
   font-family: "Source Sans 3", sans-serif;
 }
-
 
 .top-section{
   color: white;
