@@ -53,3 +53,16 @@ function createAgeText(birthYear){
   
   return `${age} years old`
 }
+
+// pet filter button code
+const allButtons = document.querySelectorAll(".pet-filter button")
+
+allButtons.forEach(element => {
+  element.addEventListener("click", handleButtonClick)
+})
+
+function handleButtonClick(e){
+  allButtons.forEach(element => element.classList.remove("active"))
+}
+
+e.target.classList.add("active")
